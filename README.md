@@ -42,10 +42,10 @@ PostgreSQL
 $ npm install
 ```
 
-## Running the app
+## Para rodar o app
 
 ```bash
-# development
+# desenvolvimento
 $ npm run start
 
 # watch mode
@@ -55,15 +55,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Support
+## Deploy
+url: https://movie-catalog-api-88tp.onrender.com
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Tempo de experiência com cada tech
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+TypeScript - 1 ano
+Nest.js - 1º projeto
+TypeORM - 1 ano
+Swagger - 2º projeto
+Docker - 2º projeto
+Redis - 1º projeto
+PostgreSQL - 1 ano
 
 ## License
 
