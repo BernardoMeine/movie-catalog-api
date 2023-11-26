@@ -48,7 +48,7 @@ export class MovieController {
   }
 
   @UseInterceptors(CacheInterceptor)
-  @CacheTTL(60)
+  @CacheTTL(40)
   @Get()
   findAll(): Promise<Movie[]> {
     return this.movieService.findAll();
