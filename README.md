@@ -58,6 +58,9 @@ $ npm run start:prod
 ## Deploy
 url: https://movie-catalog-api-88tp.onrender.com
 
+## Documentação
+url: https://movie-catalog-api-88tp.onrender.com/api
+
 ## Tempo de experiência com cada tech
 
 TypeScript - 1 ano
