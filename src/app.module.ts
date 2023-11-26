@@ -19,7 +19,7 @@ dotenv.config();
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: process.env.PROD_DB_HOST || 'localhost',
       port: 5432,
       username: process.env.PROD_DB_USER,
       password: process.env.PROD_DB_PASSWORD,
