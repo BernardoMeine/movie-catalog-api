@@ -25,7 +25,7 @@ dotenv.config();
       password: process.env.PROD_DB_PASSWORD,
       database: process.env.PROD_DB_NAME,
       entities: ["dist/**/*.entity{.ts,.js}"],
-      synchronize: false,
+      synchronize: true,
     }),
     CacheModule.registerAsync({
       imports: [ConfigModule],
